@@ -1,0 +1,31 @@
+
+.navContainer{
+    display: flex;
+    justify-content: space-between;
+}
+
+.navContainer ul{
+    list-style: none;
+    display: flex;
+    
+}
+
+.navContainer ul li {
+    margin: 20px;
+}
+
+.navContainer ul li a{
+    color: #000000;
+    text-decoration: none;
+    font-size: 20px;
+    font-style: bold;
+}
+
+/* .navbar{
+    height: 100vh;
+    width: 100%;
+}
+.carousel-item{
+    width: 100%;
+} */
+
