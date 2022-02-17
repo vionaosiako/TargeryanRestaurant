@@ -97,7 +97,26 @@ a :hover{
 .insideService img{
     width: 80%;
 }
+.mainContactUs{
+    text-align: center;
+    margin-top: 30px;
+    padding: 30px;
 
+}
+.contactUs{
+    display: flex;
+    justify-content: center;
+    margin: 30px;
+}
+
+.insideContactUs{
+    margin: 50px;
+}
+
+.insideContactUs img{
+    width: 40%;
+
+}
 .subscribe{
     display: flex;
     justify-content: space-between;
