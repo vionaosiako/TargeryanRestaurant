@@ -2,6 +2,7 @@
 .navContainer{
     display: flex;
     justify-content: space-between;
+    color: #ffffff;
 }
 
 .navContainer ul{
@@ -19,13 +20,24 @@
     text-decoration: none;
     font-size: 20px;
     font-style: bold;
+    color: #ffffff;
 }
 
-/* .navbar{
+.navbar{
+    background-image: url(images/h2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
     height: 100vh;
     width: 100%;
 }
-.carousel-item{
-    width: 100%;
-} */
+
+  
+.navFloat{
+    text-align: center;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform:translate(-45%, -45%);
+    /* color: #ffffff; */
+}
 
