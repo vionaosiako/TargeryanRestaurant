@@ -1,3 +1,8 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
 
 .navContainer{
     display: flex;
@@ -22,6 +27,9 @@
     font-style: bold;
     color: #ffffff;
 }
+a :hover{
+    color: aqua;
+}
 
 .navbar{
     background-image: url(images/h2.jpg);
@@ -38,6 +46,49 @@
     top: 40%;
     left: 50%;
     transform:translate(-45%, -45%);
-    /* color: #ffffff; */
+    color: #ffffff;
+    font-size: 20px;
+}
+
+.aboutUsMain{
+    margin-top: 30px;
+    padding: 30px;
+
+}
+
+.aboutUs{
+    display: flex;
+    justify-content: space-around;    
+    
+}
+
+.insideAboutUs{
+    border-style: groove;
+    margin: 30px;
+    padding: 10px;
+    text-align: center;
+}
+
+.insideAboutUs img{
+    width: 60px;
+}
+.mainService{
+    text-align: center;
+    margin-top: 30px;
+    padding: 30px;
+}
+.service{
+    display: flex;
+    box-sizing: border-box;
+    justify-content: space-between;
+    padding: 10px;
+    margin: 20px; 
+}
+.insideService{
+    border-radius: 5px;
+    border-style: groove;
+    text-align: center;
+    padding: 5px; 
+    margin: 20px;   
 }
 
