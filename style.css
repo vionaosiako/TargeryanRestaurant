@@ -120,3 +120,24 @@ footer{
     
 }
 
+@media screen and (max-width: 1130px) {
+    .service{
+        flex-wrap: wrap;
+    }
+    
+}
+
+@media screen and (max-width: 950px) {
+    .contactUs{
+        flex-wrap: wrap;
+    }
+    
+}
+
+@media screen and (max-width: 728px) {
+    .subscribe{
+        flex-wrap: wrap;
+    }
+    
+}
+
